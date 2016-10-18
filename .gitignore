@@ -2,3 +2,7 @@ logs/
 .gauge/
 reports/
 gauge_bin/
+gauge-demo.i*
+.gradle/
+build/
+out/

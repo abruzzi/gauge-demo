@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'com.thoughtworks.gauge:gauge-java:+'
+    testCompile 'junit:junit:4.12'
+}
