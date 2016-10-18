@@ -1,3 +1,5 @@
+package com.thoughtworks.jigsaw.sbe;
+
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
 import com.thoughtworks.gauge.TableRow;
@@ -19,7 +21,7 @@ public class StaffingStepImplementation {
     EmployeeService employeeService;
 
     @Step("目前西安办公室有这样一些同事 <table>")
-    public void setBackground(Table table) {
+    public void background(Table table) {
         for (TableRow row : table.getTableRows()) {
             String name = row.getCell("name");
             String currentProject = row.getCell("currentProject");

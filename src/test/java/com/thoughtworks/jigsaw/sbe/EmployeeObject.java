@@ -1,3 +1,5 @@
+package com.thoughtworks.jigsaw.sbe;
+
 import com.thoughtworks.jigsaw.Employee;
 
 public class EmployeeObject {
