@@ -20,4 +20,11 @@ public class InMemoryEmployeeRepository implements EmployeeRepository{
                 filter(Employee::isProfessionalService).
                 collect(Collectors.toList());
     }
+
+    @Override
+    public List<Employee> findBySkill(String skill) {
+        return findAllAssignable().stream().
+                filter(employee -> employee.hasSKill(skill)).
+                collect(Collectors.toList());
+    }
 }

@@ -12,4 +12,8 @@ public class EmployeeService {
     public List<Employee> findAllAssignable() {
         return employeeRepository.findAllAssignable();
     }
+
+    public List<Employee> findBySkill(String skill) {
+        return employeeRepository.findBySkill(skill);
+    }
 }

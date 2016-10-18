@@ -2,10 +2,14 @@ package com.thoughtworks.jigsaw.sbe;
 
 import com.thoughtworks.jigsaw.Employee;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class EmployeeObject {
     private String name;
     private String role;
     private String currentProject;
+    private String skills;
 
     public EmployeeObject() {
     }
@@ -40,7 +44,21 @@ public class EmployeeObject {
         this.currentProject = currentProject;
     }
 
+    public String getSkills() {
+        return skills;
+    }
+
+    public void setSkills(String skills) {
+        this.skills = skills;
+    }
+
     public Employee toEmployee() {
-        return new Employee(name, role, currentProject);
+        Employee employee = new Employee(name, role, currentProject);
+        if(skills != null && skills.contains(",")) {
+            employee.setSkills(Arrays.asList(skills.split(",")));
+        } else {
+            employee.setSkills(Collections.singletonList(skills));
+        }
+        return employee;
     }
 }
