@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Collections;
+import com.thoughtworks.jigsaw.Employee;
 
 public class EmployeeObject {
     private String name;
@@ -37,5 +36,9 @@ public class EmployeeObject {
 
     public void setCurrentProject(String currentProject) {
         this.currentProject = currentProject;
+    }
+
+    public Employee toEmployee() {
+        return new Employee(name, role, currentProject);
     }
 }
