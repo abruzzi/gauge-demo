@@ -6,3 +6,4 @@ gauge-demo.i*
 .gradle/
 build/
 out/
+specs/_book

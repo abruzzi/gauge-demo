@@ -1,8 +1,8 @@
-# Jigsaw系统的规格说明书
+# 人力安排相关
 
 我是`史小锋`，目前的角色是`人事经理`。工作的主要内容是把不同的`PS`同事安排到合适的项目上，听起来还不错吧？实际上这是一份**很苦逼**的差事，很久以来，公司都一直处在缺人的状态，各个项目都在找我要人，我又没法凭空给变出合适的人来！
 
-![xiaofeng](spec-images/shixiaofeng-resized.png)
+![xiaofeng](../spec-images/shixiaofeng-resized.png)
 
 ## 看看现在谁可以出台？
 
@@ -12,19 +12,19 @@
 
 * 如果目前西安办公室有这样一些同事
 
-	|name|currentProject|role|
-	|----|--------------|----|
-	|邱俊涛|Beach|Dev|
-	|高亮| |Dev|
-	|杨栋|JetLag|Dev|
-	|史小锋|Beach|Assoc|
+|name|currentProject|role|
+|----|--------------|----|
+|邱俊涛|Beach|Dev|
+|高亮| |Dev|
+|杨栋|JetLag|Dev|
+|史小锋|Beach|Assoc|
 
 * 那么下面这几个人是可以出台的
 
-	|name|
-	|----|
-	|邱俊涛|
-	|高亮|
+|name|
+|----|
+|邱俊涛|
+|高亮|
 
 ## 看看谁比较适合上Ruby项目？
 
@@ -32,16 +32,16 @@
 
 * 如果目前西安办公室有这样一些同事
 
-	|name|currentProject|role|skills|
-	|----|--------------|----|------|
-	|王晓峰|Consulting|Dev|Java,Ruby|
-	|阎昱|Beach|Dev|Ruby|
-	|贾玮|Beach|Dev|Java,Ruby|
-	|李彤欣|Beach|Dev|JavaScript|
+|name|currentProject|role|skills|
+|----|--------------|----|------|
+|王晓峰|Consulting|Dev|Java,Ruby|
+|阎昱|Beach|Dev|Ruby|
+|贾玮|Beach|Dev|Java,Ruby|
+|李彤欣|Beach|Dev|JavaScript|
 
 * 那么下面这几个人可以上 "Ruby" 技术栈的项目
 
-    |name|
-    |----|
-    |阎昱|
-    |贾玮|
+|name|
+|----|
+|阎昱|
+|贾玮|
