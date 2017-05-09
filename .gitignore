@@ -7,3 +7,5 @@ gauge-demo.i*
 build/
 out/
 specs/_book
+specs/*.pdf
+.DS_Store
